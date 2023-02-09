@@ -4,12 +4,12 @@
 	"level": 5,
 	"maxStack" : 1,
 	"rarity" : "Rare",
-	"description" : "-",
+	"description" : "Rare Shotgun",
 	"shortdescription" : "T5-SN HyperBeam",
 	"tooltipKind" : "gun",
-	"category" : "pistol",
+	"category" : "shotgun",
 	"twoHanded" : true,
-	"itemTags" : ["weapon", "ranged", "pistol"],
+	"itemTags" : ["weapon", "ranged", "shotgun"],
 
 	"inventoryIcon" : "T5-SN_HyperBeam.png",
 
@@ -38,14 +38,15 @@
 		"scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
 		"class" : "GunFire",
 
-		"fireTime" : 0.6,
-		"baseDps" : 11.15,
-		"energyUsage" : 18.75,
-		"inaccuracy" : 0.025,
+		"fireTime" : 1.4,
+		"baseDps" : 10.0,
+		"energyUsage" : 28,
+		"inaccuracy" : 0.035,
 
-		"projectileCount" : 1,
+		"projectileCount" : 3,
 		"fireType" : "auto",
 
+		
 		"projectileType" : "plasma4pink",
 		"projectileParameters" : {
 			"knockback" : 6

@@ -8,7 +8,7 @@
 	"shortdescription" : "T4-SN MysticalFire",
 	"tooltipKind" : "gun",
 	"category" : "shotgun",
-	"twoHanded" : false,
+	"twoHanded" : true,
 	"itemTags" : ["weapon", "ranged", "shotgun"],
 
 	"inventoryIcon" : "T4-SN_MysticalFire.png",
