@@ -1,0 +1,10 @@
+[{
+		"op" : "add",
+		"path" : "/species/sylveonoid",
+		"value" : {
+			"aiFrames" : "sylveonoidAI.png",
+			"portraitFrames" : "portraits/sylveonoidportrait.png",
+			"staticFrames" : "staticsylveonoid.png"	
+		}
+	}
+]

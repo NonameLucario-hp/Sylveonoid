@@ -1,0 +1,28 @@
+{
+	"projectileName" : "snmoon-3",
+	"image" : "snmoon-3.png",
+	"physics" : "laser",
+	"bounces" : 0,
+	"damageKindImage" : "icon.png",
+	"pointLight" : true,
+	"lightColor" : [255, 255, 255],
+	"emitters" : [ "defaultwhite" ],
+	"actionOnReap" : 
+	[
+		{
+			"action" : "config",
+			"file" : "/projectiles/explosions/watersplash/watersplash.config"
+		}
+	],
+	"power" : 5.0,
+	"speed" : 10,
+	"damageKind" : "plasma",
+	"fallSpeed" : 0,
+	"damagePoly" : [ [-12, 0], [-8, -8], [0, -12], [8, -8], [12, 0], [8, 8], [0, 12], [-8, 8] ],
+	"animationLoops" : true,
+	"animationCycle" : 1,
+	"frameNumber" : 8,
+	"flippable" : true,
+	"universalDamage" : false,
+	"piercing" : true 
+}

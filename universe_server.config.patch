@@ -1,0 +1,16 @@
+[
+	{ "op" : "add",
+		"path" : "/speciesShips/sylveonoid",
+		"value" : [
+		    "/ships/sylveonoid/sylveonoidt0.structure",
+			"/ships/sylveonoid/sylveonoidt1.structure",
+			"/ships/sylveonoid/sylveonoidt2.structure",
+			"/ships/sylveonoid/sylveonoidt3.structure",
+			"/ships/sylveonoid/sylveonoidt4.structure",
+			"/ships/sylveonoid/sylveonoidt5.structure",
+			"/ships/sylveonoid/sylveonoidt6.structure",
+			"/ships/sylveonoid/sylveonoidt7.structure",
+			"/ships/sylveonoid/sylveonoidt8.structure"
+		]
+	}
+]

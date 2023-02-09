@@ -1,0 +1,63 @@
+{
+  "objectName" : "sylveonoid_GlaceonMerchant",
+  "colonyTags" : ["sylveonoid", "commerce"],
+  "rarity" : "Uncommon",
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/merchant.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Glaceon Merchant",
+        "subtitle" : "Instant delivery"
+      }
+    },
+    "buyFactor" : 1.2,
+    "sellFactor" : 0.2,
+    "items" : [
+	//	{ "item" : "sylveoinoid_GlaceonIceShard" },
+	//	{ "item" : "sn-mp_twentyseven" },
+	//	{ "item" : "sn-sr_patriot" },
+		
+	//	{ "item" : "sylveonoidtier1chest" },
+	//	{ "item" : "sylveonoidtier1head" },
+	//	{ "item" : "sylveonoidtier1pants" },
+		
+		{ "item" : ["bomb", 5] }//,
+	//	{ "item" : "sylveonoidkittyhead" },
+	//	{ "item" : "sylveonoidbannerlarge" },
+	//	{ "item" : "sylveonoidbannersmall" },
+	//	{ "item" : "sylveonoidwoodchair" },
+	//	{ "item" : "sylveonoidwooddoor" },
+	//	{ "item" : "sylveonoidwoodenbed" },
+	//	{ "item" : "sylveonoidwoodendesk" },	  
+	//	{ "item" : "spawnersylveonoid" }	  
+    ]
+  },
+  "description" : "Do you need a Ice Shard or Weapon?",
+  "shortdescription" : "Glaceon Merchant",
+  "race" : "sylveonoid",
+  "category" : "Merchant",
+  "price" : 1000,
+  
+  "printable" : false,
+  "unbreakable" : false,
+  "apexDescription" : "A silent Glaceon merchant. Unusual.",
+  "avianDescription" : "Who is this curious merchant?",
+  "floranDescription" : "Floran ssslightly ssscared by sssilent Glaceon.",
+  "glitchDescription" : "Concerned. This Glaceon seems unwilling to communicate.",
+  "humanDescription" : "If I kiss it, do you think it'll turn into a prince merchant?",
+  "hylotlDescription" : "This silent creature is not one of us.",
+  "novakidDescription" : "Don't see many Glaceon merchants round these parts",
+  "sylveonoidDescription" : "Cute",
+  "inventoryIcon" : "sylveonoid_GlaceonMerchant_icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "sylveonoid_GlaceonMerchant.png:<color>.<frame>",
+      "imagePosition" : [-32, 0],
+      "frames" : 10,
+      "animationCycle" : 2,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

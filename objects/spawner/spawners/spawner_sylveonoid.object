@@ -1,0 +1,48 @@
+{
+  "objectName" : "spawnersylveonoid",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "description" : "Spawn your very own sylveonoid villager Simply place and then leave the planet or ship. Once you return there will be an NPC.",
+  "shortdescription" : "sylveonoid Spawner",
+  "race" : "sylveonoid",
+  "printable" : false,
+  "category" : "spawner",
+  "price" : 100,
+  "apexDescription" : "Maybe I can reverse engineer this.",
+  "avianDescription" : "What could I possibly want with sylveonoids?",
+  "floranDescription" : "Floran not sssure if want to sssummon sylveonoids.",
+  "glitchDescription" : "Concern. These were all meant to be destroyed.",
+  "humanDescription" : "What could I possibly want with sylveonoids?",
+  "hylotlDescription" : "A sylveonoid spawner. These shouldn't exist.",
+  "sylveonoidDescription" : "Woo.",
+  "inventoryIcon" : "defaulticon.png",
+  "orientations" : [
+    {
+      "image" : "spawner_sylveonoid.png",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "background" ]
+    }
+  ],
+  "scripts" : [ "/objects/spawner/spawners/spawner.lua" ],
+  "scriptDelta" : 1,
+  //6000,
+  "animation" : "/objects/spawner/spawners/sylveonoid.animation",
+  "animationParts" : {
+    "switch" : "spawner_sylveonoid.png"
+  },
+  "animationPosition" : [-8, 0],
+  "inputNodes" : [ ],
+  "outputNodes" : [ ],
+  "spawner" : {
+    "searchRadius" : 32.0,
+    "npcSpeciesOptions" : [ "sylveonoid" ],
+    "npcTypeOptions" : [ "villager" ],
+    "npcParameterOptions" : [
+      {
+        "dropPools" : [ ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+	"objectName" : "sylveonoid_CraftingArmorTable",
+	"colonyTags" : ["sylveonoid"],
+	"printable" : false,
+	"rarity" : "Common",
+	
+	"interactAction" : "OpenCraftingInterface",
+	"interactData" : {
+		"config" : "/interface/windowconfig/crafting.config",
+		"paneLayoutOverride" : {
+			"windowtitle" : {
+				"title" : "Crafting Armor",
+				"subtitle" : "Crafting Armor"
+			}
+		},
+		"filter" : ["sylveonoid_CraftingArmorTable"]
+	},
+
+	"category" : "crafting",
+	"price" : 300,
+
+	"description" : "A Workbench for crafting weapons",
+	"shortdescription" : "Sylveonoid Crafting Armor Table",
+	"race" : "sylveonoid",
+
+	"apexDescription" : "...",
+	"avianDescription" : "...",
+	"floranDescription" : "...",
+	"glitchDescription" : "...",
+	"humanDescription" : "...",
+	"hylotlDescription" : "...",
+	"novakidDescription" : "...",
+
+	"inventoryIcon" : "sylveonoid_CraftingArmorTable_icon.png",
+	"orientations" : [
+		{
+			"dualImage" : "sylveonoid_CraftingArmorTable.png:<color>.<frame>",
+			"imagePosition" : [-18, 0],
+			"frames" : 20,
+			"animationCycle" : 1.5,
+
+			"spaceScan" : 0.5,
+			"anchors" : []
+		}
+	]
+}

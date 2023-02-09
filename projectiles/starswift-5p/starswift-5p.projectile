@@ -1,0 +1,30 @@
+{
+	"projectileName" : "starswift-5p",
+	"image" : "starswift-5p.png",
+	"animationCycle" : 0.2,
+	"frameNumber" : 4,
+	"lightColor" : [200, 150, 100],
+	"pointLight" : false,
+	"actionOnReap" : [
+    {
+		"action" : "config",
+		"file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+	],
+	"statusEffects" : [ ],
+	
+	"flippable" : true,
+	"power" : 20.0,
+	"speed" : 5.0,
+	"acceleration" : 65,
+	"timeToLive" : 1.25,
+	"physics" : "laser",
+	"damageKind" : "bow",
+
+	"scripts" : [ "/scripts/projectiles/homingprojectile.lua" ],
+	"scriptDelta" : 3,
+
+	"rotationRate" : 5.0,
+	"trackingLimit" : 2.5
+	
+}

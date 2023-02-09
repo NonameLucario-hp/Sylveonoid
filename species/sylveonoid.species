@@ -1,0 +1,97 @@
+{
+	"kind" : "sylveonoid",
+	"charCreationTooltip" : 
+	{
+		"title" : "SYLVEON",
+		"subTitle" : "Fluffy Space Fairies",
+		"description" : "Space Fairies who have evolved into two-legged and explore space."
+	},
+	"nameGen" : [ "/species/sylveonoidmalenamegen.config:names", "/species/sylveonoidfemalenamegen.config:names" ],
+	"ouchNoises" : [ "/sfx/humanoid/sn_noise4_hurt.ogg", "/sfx/humanoid/sn_noise4_hurt.ogg" ],
+	"charGenTextLabels" : [ "Fur colour", "Hair style", "Shirt", "Legwear", "Eyes colour", "Hair colour", "Shirt colour", "Legwear colour", "SYLVEONOID", "Personality" ],
+	"skull" : "/humanoid/sylveonoid/dead.png",
+	"effectDirectives" : "?replace=FEFFFFFF=FFFFFFFF?replace=9bd4ffFF=ffea63FF?replace=31a6ffFF=f5bc00FF",
+	"defaultBlueprints" : 
+	{
+		"tier1" : [
+			// Weapon
+			{ "item" : "sylveonoid_WeaponShortswordT1_QuickAttack" },
+			
+			// Special
+			{ "item" : "sylveonoid_GlaceonMerchant" },
+			{ "item" : "sylveonoid_EspeonArtist" },
+	  
+			{ "item" : "sylveonoid_CraftingWeaponTable" },
+			{ "item" : "sylveonoid_CraftingArmorTable" },
+			
+			{ "item" : "sylveonoid_SylveonShard" }
+		]
+	},
+  
+	"altOptionAsUndyColor" : true,
+	"headOptionAsHairColor" : true,
+	"altOptionAsHairColor" : true,
+	"genders" : 
+	[
+		{
+			"name" : "male",
+			"image" : "/interface/title/sylveonoidmaleico.png",
+			"characterImage" : "/interface/title/sylveonoidmale.png",
+			"hair" : [ "male1", "male2", "fem3", "fem4", "fem5", "fem6", "fem7", "fem8", "fem9", "fem10", "fem11", "fem12", "fem13", "fem14", "fem15", "fem16", "fem17", "fem18" ],
+			"shirt" : [ "sylveonoidoutfit1chest", "sylveonoidoutfit2chest", "sylveonoidoutfit3chest", "sylveonoidoutfit4chest" ],
+			"pants" : [ "sylveonoidoutfit1legs", "sylveonoidoutfit2legs", "sylveonoidoutfit3legs", "sylveonoidoutfit4legs" ],
+			"facialHairGroup" : "",
+			"facialHair" : [ ],
+			"facialMaskGroup" : "",
+			"facialMask" : [ ]
+		},
+		{
+			"name" : "female",
+			"image" : "/interface/title/sylveonoidfemico.png",
+			"characterImage" : "/interface/title/sylveonoidfemale.png",
+			"hair" : [ "fem1", "fem2", "fem3", "fem4", "fem5", "fem6", "fem7", "fem8", "fem9", "fem10", "fem11", "fem12", "fem13", "fem14", "fem15", "fem16", "fem17", "fem18" ],
+			"shirt" : [ "sylveonoidoutfit1chest", "sylveonoidoutfit2chest", "sylveonoidoutfit3chest", "sylveonoidoutfit4chest" ],
+			"pants" : [ "sylveonoidoutfit1legs", "sylveonoidoutfit2legs", "sylveonoidoutfit3legs", "sylveonoidoutfit4legs" ],
+			"facialHairGroup" : "",
+			"facialHair" : [ ],
+			"facialMaskGroup" : "",
+			"facialMask" : [ ]
+		}
+	],
+	"bodyColor" : 
+	[
+		{   //BaseColor
+			"f1f2ff" : "f1f2ff", 
+			"c9d4fd" : "c9d4fd", 
+			"8aa1f6" : "8aa1f6", 
+			"f6a2a8" : "f6a2a8", 
+			"e27285" : "e27285", 
+			"b25266" : "b25266", 
+			"64364b" : "64364b",
+			"42bfe8" : "42bfe8",
+			"2789cd" : "2789cd", 
+			"2b4e95" : "2b4e95", 
+			"1b2447" : "1b2447" 
+		}
+	],
+	"undyColor" : 
+	[ 
+		{ "97edca" : "97edca", "59cf93" : "59cf93", "ffffff" : "ffffff" }//BaseColor
+	],
+	"hairColor" : 
+	[
+		{ 	//BaseColor
+			"f1f2ff" : "f1f2ff", 
+			"c9d4fd" : "c9d4fd", 
+			"8aa1f6" : "8aa1f6", 
+			"f6a2a8" : "f6a2a8", 
+			"e27285" : "e27285", 
+			"b25266" : "b25266", 
+			"64364b" : "64364b", 
+			"42bfe8" : "42bfe8",
+			"2789cd" : "2789cd",
+			"2b4e95" : "2b4e95", 
+			"1b2447" : "1b2447" 
+		}
+	]
+}

@@ -1,0 +1,93 @@
+{
+	"itemName" : "T3-SN_HyperVoice",
+	"price" : 970,
+	"level": 3,
+	"maxStack" : 1,
+	"rarity" : "Uncommon",
+	"description" : "-",
+	"shortdescription" : "T3-SN HyperVoice",
+	"tooltipKind" : "gun",
+	"category" : "Rifle",
+	"twoHanded" : true,
+	"itemTags" : ["weapon", "ranged", "rifle"],
+
+	"inventoryIcon" : "T3-SN_HyperVoice.png:idle.1",
+
+	
+	"animation" : "/items/active/weapons/ranged/gun.animation",
+	"animationParts" : {
+		
+		"butt" : "",
+		"middle" : "T3-SN_HyperVoice.png:idle.1",
+		"barrel" : "",
+		"muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
+	},
+
+	"animationCustom" : {
+		
+		"sounds" : {
+			//"fire" : ["/sfx/gun/gnome_throw1.ogg"]
+			"fire" : ["/sfx/humanoid/sn_noise4_wave.ogg"]
+		}
+	},
+
+	"baseOffset" : [0.5, 0.25],
+	"muzzleOffset" : [1.4, 0.3],
+
+	"scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+	"elementalType" : "physical",
+
+	"primaryAbility" : {
+		"scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+		"class" : "GunFire",
+
+		"fireTime" : 0.2,
+		"baseDps" : 10.25,
+		"energyUsage" : 35,
+		"inaccuracy" : 0.005,
+
+		"projectileCount" : 1,
+		"fireType" : "auto",
+
+		"projectileType" : "snwave-1",
+		"projectileParameters" : {
+			"knockback" : 1
+		},
+		
+		"stances" : {
+			"idle" : {
+				"armRotation" : 0,
+				"weaponRotation" : 0,
+				"twoHanded" : true,
+
+				"allowRotate" : true,
+				"allowFlip" : true
+			},
+			
+			"fire" : {
+				"duration" : 0,
+				"armRotation" : 15,
+				"weaponRotation" : 15,
+				"twoHanded" : true,
+
+				"allowRotate" : false,
+				"allowFlip" : false
+			},
+			
+			"cooldown" : {
+				"duration" : 0.15,
+				"armRotation" : 15,
+				"weaponRotation" : 15,
+				"twoHanded" : true,
+
+				"allowRotate" : false,
+				"allowFlip" : false
+			}
+		}
+	},
+	"altAbilityType" : "flashlight",
+	"critChance" : 20, 
+	"critBonus" : 2, 
+	"builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

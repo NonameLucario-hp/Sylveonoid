@@ -1,0 +1,13 @@
+{
+	"id" : "sylveonoiddiary",
+	"title" : "Survivors Log",
+	"description" : "The diary of a lost soul.",
+	"icon" : "sylveonoidcover.png",
+	"contentPages" : [
+    "Lore here."
+	],
+		"itemConfig" : {
+		"rarity" : "common",
+		"price" : 25
+	}
+}

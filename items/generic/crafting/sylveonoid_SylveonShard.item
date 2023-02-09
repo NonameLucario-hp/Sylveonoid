@@ -1,0 +1,10 @@
+{
+  "itemName" : "sylveonoid_SylveonShard",
+  "price" : 100,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "sylveonoid_SylveonShardOne.png",
+  "description" : "This Sylveon Fairy Shard can be used to weapons!",
+  "shortdescription" : "Sylveon Fairy Shard",
+  "itemTags" : [ "reagent" ]
+}

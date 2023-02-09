@@ -1,0 +1,10 @@
+{
+  "itemName" : "sylveonoid_GlaceonIceShard",
+  "price" : 200,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "sylveonoid_GlaceonIceShard.png",
+  "description" : "This Glaceon Ice Shard can be used to weapons! You can only buy from Glaceon",
+  "shortdescription" : "Glaceon Ice Shard",
+  "itemTags" : [ "reagent" ]
+}

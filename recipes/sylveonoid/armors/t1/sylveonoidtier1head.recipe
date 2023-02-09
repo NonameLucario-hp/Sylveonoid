@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 3 },
+    { "item" : "fabric", "count" : 5 }  
+  ],
+  "duration" : 1,
+  "output" : { "item" : "sylveonoidtier1head", "count" : 1 },
+  "groups" : [ "sylveonoid_CraftingArmorTable", "armours", "all" ]
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "op": "add",
+    "path": "/sylveonoidStarterTreasure",
+    "value": [[0, {
+      "fill" : [
+        {"pool" : "starterTreasure"},
+        {"item" : [ "sn-sw_blade", 1 ]}
+      ]
+    }]]
+  }
+]

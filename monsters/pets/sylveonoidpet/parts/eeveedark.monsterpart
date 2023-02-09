@@ -1,0 +1,8 @@
+{
+  "name" : "eeveedark",
+  "category" : "sylveonoidpet",
+  "type" : "body",
+  "frames" : {
+    "body" : "eeveedark.png"
+  }
+}

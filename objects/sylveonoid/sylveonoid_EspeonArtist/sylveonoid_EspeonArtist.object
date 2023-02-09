@@ -1,0 +1,60 @@
+{
+  "objectName" : "sylveonoid_EspeonArtist",
+  "colonyTags" : ["sylveonoid", "commerce"],
+  "rarity" : "Uncommon",
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/merchant.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Espeon Artist",
+        "subtitle" : "She drawing..."
+      }
+    },
+    "buyFactor" : 1.2,
+    "sellFactor" : 0.6,
+    "items" : [
+	//	{ "item" : "sep_blue_small" },
+	//	{ "item" : "sep_braixen_big" },
+	//	{ "item" : "sep_camp_small" },
+	//	{ "item" : "sep_dark_big" },
+	//	{ "item" : "sep_his_zoroark_small" },
+	//	{ "item" : "sep_neon_big" },
+	//	{ "item" : "sep_night_woods_medium" },
+	//	{ "item" : "sep_ruin_lucario_small" },
+	//	{ "item" : "sep_white_red_medium" }
+	//	{ "item" : "sylveonoidwoodchair" },
+	//	{ "item" : "sylveonoidwooddoor" },
+	//	{ "item" : "sylveonoidwoodenbed" },
+	//	{ "item" : "sylveonoidwoodendesk" },	  
+	//	{ "item" : "spawnersylveonoid" }	  
+    ]
+  },
+  "description" : "Do you need a Psy Shard or Weapon?",
+  "shortdescription" : "Espeon Artist",
+  "race" : "sylveonoid",
+  "category" : "Merchant",
+  "price" : 1000,
+  
+  "printable" : false,
+  "unbreakable" : false,
+  "apexDescription" : "A silent Espeon merchant. Unusual.",
+  "avianDescription" : "Who is this curious merchant?",
+  "floranDescription" : "Floran ssslightly ssscared by sssilent Espeon.",
+  "glitchDescription" : "Concerned. This Espeon seems unwilling to communicate.",
+  "humanDescription" : "If I kiss it, do you think it'll turn into a prince merchant?",
+  "hylotlDescription" : "This silent creature is not one of us.",
+  "novakidDescription" : "Don't see many Espeon merchants round these parts",
+  "sylveonoidDescription" : "Cute",
+  "inventoryIcon" : "sylveonoid_EspeonArtist_icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "sylveonoid_EspeonArtist.png:<color>.<frame>",
+      "imagePosition" : [-26, 0],
+      "frames" : 35,
+      "animationCycle" : 2,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

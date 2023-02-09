@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 4 },
+    { "item" : "canvas", "count" : 1 }
+  ],
+  "duration" : 1,
+  "output" : { "item" : "sylveonoidtier3pants", "count" : 1 },
+  "groups" : [ "sylveonoid_CraftingArmorTable", "armours", "all" ]
+}

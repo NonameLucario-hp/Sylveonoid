@@ -1,0 +1,31 @@
+{
+	"projectileName" : "starswift-3",
+	"image" : "starswift-3.png",
+	"physics" : "laser",
+	"bounces" : 0,
+	"damageKindImage" : "starswift-3.png",
+	"pointLight" : true,
+	"lightColor" : [82, 8, 57],
+	"fullbright" : true,
+	"actionOnReap" : 
+	[
+		{
+			"action" : "config",
+			"file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+		}
+	],
+	"power" : 5.0,
+	"speed" : 5.0,
+	"acceleration" : 50,
+	"damageKind" : "plasma",
+	"fallSpeed" : 0,
+	"damagePoly" : [ [-7, 0], [-3, -3], [0, -7], [3, -3], [7, 0], [3, 3], [0, 7], [-3, 3] ],
+	"animationLoops" : true,
+	"animationCycle" : 1,
+	"frameNumber" : 4,
+	"flippable" : true,
+	"universalDamage" : false,
+	"supportsProcessing" : true,
+	"piercing" : true 
+	
+}

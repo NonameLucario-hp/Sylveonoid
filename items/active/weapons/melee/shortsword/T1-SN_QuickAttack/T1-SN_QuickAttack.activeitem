@@ -1,0 +1,44 @@
+{
+	"itemName" : "T1-SN_QuickAttack",
+	"price" : 250,
+	"maxStack" : 1,
+	"rarity" : "common",
+	"level": 1,
+	"description" : "-",
+	"shortdescription" : "T1-SN QuickAttack",
+	"tooltipKind" : "sword",
+	"category" : "shortsword",
+	"twoHanded" : false,
+	"itemTags" : ["weapon","melee","shortsword"],
+	"inventoryIcon" : "T1-SN_QuickAttack.png",
+	"animation" : "/items/active/weapons/melee/shortsword/comboshortsword.animation",
+	"animationParts" : {
+		"handle" : "",
+		"blade" : "T1-SN_QuickAttack.png"
+	},
+	"animationCustom" : {
+		"animatedParts" : {
+			"parts" : {
+				"blade" : {
+					"properties" : {
+						"offset" : [ -0.4, -0.4 ]
+					}
+				},
+				"swoosh" : {
+					"properties" : {
+						"offset" : [ 0, 0 ]
+					}
+				}
+			}
+		}
+	},
+	"scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+	"elementalType" : "physical",
+	"primaryAbilityType" : "shortswordcombo",
+	"primaryAbility" : {
+		"fireTime" : 0.625,
+		"baseDps" : 8.5
+	},
+	"baseWeaponRotation" : 10,
+	"builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

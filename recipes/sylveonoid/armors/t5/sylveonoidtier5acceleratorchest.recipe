@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 10 },
+    { "item" : "sylveoinoid_GlaceonIceShard", "count" : 1 },
+    { "item" : "syntheticmaterial", "count" : 1 }
+  ],
+  "duration" : 1,
+  "output" : { "item" : "sylveonoidtier5achest", "count" : 1 },
+  "groups" : [ "sylveonoid_CraftingArmorTable", "armours", "all" ]
+}

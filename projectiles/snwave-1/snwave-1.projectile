@@ -1,0 +1,27 @@
+{
+	"projectileName" : "snwave-1",
+	"image" : "snwave-1.png",
+	"physics" : "laser",
+	"bounces" : 1,
+	"damageKindImage" : "icon.png",
+	"pointLight" : true,
+	"lightColor" : [59, 23, 37],
+	"actionOnReap" : 
+	[
+		{
+			"action" : "config",
+			"file" : "/projectiles/explosions/watersplash/watersplash.config"
+		}
+	],
+	"power" : 5.0,
+	"speed" : 20,
+	"damageKind" : "plasma",
+	"fallSpeed" : 0,
+	"damagePoly" : [ [-12, 0], [-8, -8], [0, -12], [8, -8], [12, 0], [8, 8], [0, 12], [-8, 8] ],
+	"animationLoops" : true,
+	"animationCycle" : 0.2,
+	"frameNumber" : 2,
+	"flippable" : true,
+	"universalDamage" : false,
+	"piercing" : true 
+}

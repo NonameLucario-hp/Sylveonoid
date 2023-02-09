@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "solariumstar", "count" : 12 },
+	{"item" : "sylveoinoid_GlaceonIceShard", "count" : 14},
+    { "item" : "sylveonoidtier5ahead", "count" : 1 }
+  ],
+  "duration" : 1,
+  "output" : { "item" : "sylveonoidtier6ahead", "count" : 1 },
+  "groups" : [ "sylveonoid_CraftingArmorTable", "armours", "all" ]
+}

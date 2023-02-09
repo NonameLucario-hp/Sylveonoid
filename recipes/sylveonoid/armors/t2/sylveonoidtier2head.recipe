@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "tungstenbar", "count" : 6 },
+    { "item" : "cottonwool", "count" : 1 }
+  ],
+  "duration" : 1,
+  "output" : { "item" : "sylveonoidtier2head", "count" : 1 },
+  "groups" : [ "sylveonoid_CraftingArmorTable", "armours", "all" ]
+}

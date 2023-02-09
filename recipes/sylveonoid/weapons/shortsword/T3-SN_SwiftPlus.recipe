@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 6 }
+  ],
+  "output" : { "item" : "T3-SN_SwiftPlus", "count" : 1 },
+  "groups" : [ "sylveonoid_CraftingWeaponTable", "all" ]
+  //"groups" : [ "sylveonoid_CraftingWeaponTable", "weapons", "all" ]
+}

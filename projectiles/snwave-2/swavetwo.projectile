@@ -1,0 +1,28 @@
+{
+	"projectileName" : "swavetwo",
+	"image" : "swavetwo.png",
+	"physics" : "laser",
+	"bounces" : 2,
+	"damageKindImage" : "icon.png",
+	"pointLight" : true,
+	"lightColor" : [40, 92, 196],
+	"actionOnReap" : 
+	[
+		{
+			"action" : "config",
+			"file" : "/projectiles/explosions/elementimpact/iceimpact.config"
+		}
+	],
+	"power" : 3.0,
+	"speed" : 20,
+	"damageKind" : "plasma",
+	"fallSpeed" : 0,
+	"damagePoly" : [ [-12, 0], [-8, -8], [0, -12], [8, -8], [12, 0], [8, 8], [0, 12], [-8, 8] ],
+	"animationLoops" : true,
+	"animationCycle" : 0.3,
+	"frameNumber" : 2,
+	"flippable" : true,
+	"universalDamage" : false,
+	"piercing" : true,
+	"statusEffects" : ["castice"]
+}

@@ -1,0 +1,8 @@
+{
+  "name" : "eeveeshiny",
+  "category" : "sylveonoidpet",
+  "type" : "body",
+  "frames" : {
+    "body" : "eeveeshiny.png"
+  }
+}

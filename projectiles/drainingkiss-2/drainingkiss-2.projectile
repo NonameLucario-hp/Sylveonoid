@@ -1,0 +1,34 @@
+{
+	"projectileName" : "drainingkiss-2",
+	
+	"image" : "drainingkiss-2.png",
+	"animationCycle" : 1,
+	"frameNumber" : 4,
+	"lightColor" : [82, 8, 57],
+	"pointLight" : true,
+	"flippable" : true,
+	"animationLoops" : true,
+	
+	"actionOnReap" : 
+	[
+		{
+			"action" : "config",
+			"file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+		}
+	],
+	"statusEffects" : [ ],
+	
+	"power" : 5.0,
+	"speed" : 5.0,
+	"acceleration" : 40,
+	"timeToLive" : 1.25,
+	"physics" : "laser",
+	"damageKind" : "bow",
+	
+	"scripts" : [ "/scripts/projectiles/homingprojectile.lua" ],
+	"scriptDelta" : 3,
+	
+	"rotationRate" : 5.0,
+	"trackingLimit" : 2.5
+	
+}

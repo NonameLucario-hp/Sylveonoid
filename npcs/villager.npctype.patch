@@ -1,0 +1,29 @@
+[
+	/*
+	{ "op" : "replace",
+		"path" : "/levelVariance",
+		"value" : [ 0, 0 ]
+	},
+	*/
+	{ "op" : "add",
+		"path" : "/items/sylveonoid",
+		"value" : [
+			[0, [
+				{
+				"chest" : [
+				  { "name" : "sylveonoidoutfit1chest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+				  { "name" : "sylveonoidoutfit2chest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+				  { "name" : "sylveonoidoutfit3chest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+				  { "name" : "sylveonoidoutfit4chest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } }
+				],
+				"legs" : [
+				  { "name" : "sylveonoidoutfit1legs", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+				  { "name" : "sylveonoidoutfit2legs", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+				  { "name" : "sylveonoidoutfit3legs", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+				  { "name" : "sylveonoidoutfit4legs", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } }
+					]
+				}
+			] ]
+		]
+	}
+]

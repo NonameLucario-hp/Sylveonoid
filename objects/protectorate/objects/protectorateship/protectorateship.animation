@@ -1,0 +1,15 @@
+{
+  "globalTagDefaults" : {
+    "species" : "sylveonoid"
+  },
+  "animatedParts" : {
+    "parts" : {
+      "ship" : {
+        "properties" : {
+          "centered" : false,
+          "image" : "protectorateship<species>.png"
+        }
+      }
+    }
+  }
+}
