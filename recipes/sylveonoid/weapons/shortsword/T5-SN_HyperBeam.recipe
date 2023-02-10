@@ -1,6 +1,8 @@
 {
   "input" : [
-    { "item" : "ironbar", "count" : 6 }
+    { "item" : "refinedferozium", "count" : 12 },
+	{ "item" : "battery", "count" : 1 },
+	{ "item" : "sylveonoid_SylveonShard", "count" : 6 }
   ],
   "output" : { "item" : "T5-SN_HyperBeam", "count" : 1 },
   "groups" : [ "sylveonoid_CraftingWeaponTable", "all" ]

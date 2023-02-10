@@ -1,6 +1,7 @@
 {
   "input" : [
-    { "item" : "ironbar", "count" : 6 }
+    { "item" : "titaniumbar", "count" : 16 },
+	{ "item" : "sylveonoid_SylveonShard", "count" : 3 }
   ],
   "output" : { "item" : "T3-SN_SwiftPlus", "count" : 1 },
   "groups" : [ "sylveonoid_CraftingWeaponTable", "all" ]

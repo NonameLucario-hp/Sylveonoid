@@ -5,7 +5,7 @@
 	"maxStack" : 1,
 	"rarity" : "Rare",
 	"description" : "Rare Shotgun",
-	"shortdescription" : "T5-SN HyperBeam",
+	"shortdescription" : "T5-SN Hyper Beam",
 	"tooltipKind" : "gun",
 	"category" : "shotgun",
 	"twoHanded" : true,

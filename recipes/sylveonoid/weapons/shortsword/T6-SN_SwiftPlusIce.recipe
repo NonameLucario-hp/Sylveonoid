@@ -1,6 +1,12 @@
 {
   "input" : [
-    { "item" : "ironbar", "count" : 6 }
+    { "item" : "refinedferozium", "count" : 12 },
+	{ "item" : "T3-SN_SwiftPlus", "count" : 1 }, 
+	{ "item" : "sylveonoid_SylveonShard", "count" : 6 },
+	{ "item" : "sylveonoid_GlaceonIceShard", "count" : 6 },
+	{ "item" : "solariumstar", "count" : 6 }
+	
+	
   ],
   "output" : { "item" : "T6-SN_SwiftPlusIce", "count" : 1 },
   "groups" : [ "sylveonoid_CraftingWeaponTable", "all" ]
