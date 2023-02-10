@@ -1,0 +1,10 @@
+{
+  "itemName" : "sylveonoid_EspeonShard",
+  "price" : 200,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "sylveonoid_EspeonShardOne.png",
+  "description" : "This Espeon Shard can be used to weapons!",
+  "shortdescription" : "Espeon Shard Shard",
+  "itemTags" : [ "reagent" ]
+}

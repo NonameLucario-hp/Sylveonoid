@@ -27,7 +27,8 @@
 	//	{ "item" : "sylveonoidwooddoor" },
 	//	{ "item" : "sylveonoidwoodenbed" },
 	//	{ "item" : "sylveonoidwoodendesk" },	  
-	//	{ "item" : "spawnersylveonoid" }	  
+	//	{ "item" : "spawnersylveonoid" }	
+	{ "item" : "sylveonoid_EspeonShard" }
     ]
   },
   "description" : "Do you need a Psy Shard or Weapon?",

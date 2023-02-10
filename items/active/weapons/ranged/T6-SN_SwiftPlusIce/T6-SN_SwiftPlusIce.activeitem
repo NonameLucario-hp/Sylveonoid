@@ -3,7 +3,7 @@
 	"price" : 300,
 	"level": 6,
 	"maxStack" : 1,
-	"rarity" : "Rare",
+	"rarity" : "Legendary",
 	"description" : "-",
 	"shortdescription" : "T6-SN SwiftPlusIce",
 	"tooltipKind" : "gun",
@@ -39,7 +39,7 @@
 		"class" : "GunFire",
 
 		"fireTime" : 0.2,
-		"baseDps" : 11.15,
+		"baseDps" : 22.15,
 		"energyUsage" : 18.75,
 		"inaccuracy" : 0.025,
 
@@ -55,7 +55,7 @@
 			"idle" : {
 				"armRotation" : 0,
 				"weaponRotation" : 0,
-				"twoHanded" : false,
+				"twoHanded" : true,
 
 				"allowRotate" : true,
 				"allowFlip" : true
@@ -65,7 +65,7 @@
 				"duration" : 0,
 				"armRotation" : 25,
 				"weaponRotation" : 25,
-				"twoHanded" : false,
+				"twoHanded" : true,
 
 				"allowRotate" : false,
 				"allowFlip" : false
@@ -75,7 +75,7 @@
 				"duration" : 0.15,
 				"armRotation" : 25,
 				"weaponRotation" : 25,
-				"twoHanded" : false,
+				"twoHanded" : true,
 
 				"allowRotate" : false,
 				"allowFlip" : false
